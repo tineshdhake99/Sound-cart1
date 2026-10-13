@@ -1,0 +1,90 @@
+[
+  {
+    "id": "g-ac-01",
+    "name": "Kadence Frontier Acoustic Guitar",
+    "category": "Acoustic Guitars",
+    "price": 5499,
+    "oldPrice": 6999,
+    "description": "A warm, balanced acoustic tone for practice and performances.",
+    "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=85",
+    "stock": 12,
+    "tag": "Bestseller"
+  },
+  {
+    "id": "g-el-01",
+    "name": "Squier Sonic Stratocaster",
+    "category": "Electric Guitars",
+    "price": 18999,
+    "oldPrice": 21999,
+    "description": "Versatile electric guitar tones for rock, blues and pop.",
+    "image": "https://images.unsplash.com/photo-1564181009361-9a3d6c2a4f6b?auto=format&fit=crop&w=900&q=85",
+    "stock": 8,
+    "tag": "Popular"
+  },
+  {
+    "id": "g-ac-02",
+    "name": "Yamaha F280 Acoustic Guitar",
+    "category": "Acoustic Guitars",
+    "price": 7990,
+    "oldPrice": 8990,
+    "description": "Reliable build and bright sound for beginners and advancing players.",
+    "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?auto=format&fit=crop&w=900&q=85",
+    "stock": 10,
+    "tag": "Great value"
+  },
+  {
+    "id": "kb-01",
+    "name": "Casio CT-S200 Keyboard",
+    "category": "Keyboards",
+    "price": 9995,
+    "oldPrice": 11995,
+    "description": "Portable 61-key keyboard with a range of sounds and rhythms.",
+    "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=900&q=85",
+    "stock": 7,
+    "tag": "Portable"
+  },
+  {
+    "id": "dr-01",
+    "name": "Mapex Tornado Drum Kit",
+    "category": "Drums",
+    "price": 32999,
+    "oldPrice": 36999,
+    "description": "A full starter drum kit for practice rooms and home studios.",
+    "image": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=900&q=85",
+    "stock": 4,
+    "tag": "Studio pick"
+  },
+  {
+    "id": "ac-01",
+    "name": "Fender Instrument Cable 3m",
+    "category": "Accessories",
+    "price": 699,
+    "oldPrice": 899,
+    "description": "A dependable instrument cable for rehearsal and stage use.",
+    "image": "https://images.unsplash.com/photo-1593078166032-9c8f5d4a2c9a?auto=format&fit=crop&w=900&q=85",
+    "stock": 30,
+    "tag": "Essential"
+  },
+  {
+    "id": "ac-02",
+    "name": "Dunlop Tortex Picks Pack",
+    "category": "Accessories",
+    "price": 249,
+    "oldPrice": 299,
+    "description": "A multi-pack of durable picks for everyday playing.",
+    "image": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=900&q=85",
+    "stock": 50,
+    "tag": "Under \u20b9500"
+  },
+  {
+    "id": "g-el-02",
+    "name": "Ibanez GRG Electric Guitar",
+    "category": "Electric Guitars",
+    "price": 15990,
+    "oldPrice": 17990,
+    "description": "Comfortable playability and punchy tones for rock and metal.",
+    "image": "https://images.unsplash.com/photo-1550985616-10810253b84d?auto=format&fit=crop&w=900&q=85",
+    "stock": 6,
+    "tag": "Rock ready"
+  }
+]

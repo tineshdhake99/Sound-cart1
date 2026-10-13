@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#11120f">
+<meta name="description" content="Find your sound at SoundCart — guitars, keyboards, drums and music accessories.">
+<title>SoundCart — Find Your Sound</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="announcement">MADE FOR MUSIC PEOPLE <span>✦</span> Free shipping on orders above ₹2,999</div>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">S</span> soundcart<span class="dot">.</span></a>
+  <nav><a href="#shop">Shop</a><a href="#why-us">Why SoundCart</a><a href="#footer">Contact</a></nav>
+  <div class="header-actions"><button class="icon-btn" id="accountBtn" aria-label="Account">♙</button><button class="cart-btn" id="cartBtn">Cart <span id="cartCount">0</span></button><button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button></div>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy"><p class="eyebrow"><span class="live-dot"></span> YOUR NEXT SOUND STARTS HERE</p>
+    <h1>Make some<br><em>noise.</em></h1>
+    <p class="hero-desc">Gear that gets you. Instruments to start a band, find your rhythm, or turn that bedroom riff into something bigger.</p>
+    <div class="hero-actions"><a class="primary-btn" href="#shop">Explore instruments <span>↗</span></a><span class="micro-note">Good gear. Honest prices.</span></div>
+    <div class="hero-proof"><div class="avatars"><span>♪</span><span>♫</span><span>♬</span></div><p><b>For the love of music.</b><br>From first chords to encore.</p></div>
+  </div>
+  <div class="hero-art"><div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div><img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=90" alt="Guitar ready to play" class="hero-img"><div class="hero-sticker">PLAY<br>LOUD <span>✳</span></div><div class="floating-card"><span class="floating-icon">♫</span><div><b>Your sound. Your rules.</b><small>Find your instrument</small></div><span>↗</span></div></div>
+</section>
+<section class="ticker"><div>GUITARS <span>✳</span> KEYBOARDS <span>✳</span> DRUMS <span>✳</span> ACCESSORIES <span>✳</span> AMPLIFIERS <span>✳</span> GUITARS <span>✳</span> KEYBOARDS <span>✳</span></div></section>
+<section class="shop-section" id="shop">
+  <div class="section-heading"><div><p class="eyebrow">THE GOOD STUFF</p><h2>Find your <em>instrument.</em></h2></div><p class="section-note">A little inspiration goes a long way.<br>Pick your next favourite.</p></div>
+  <div class="shop-tools"><div class="categories" id="categories"><button class="chip active" data-category="All">Everything</button><button class="chip" data-category="Acoustic Guitars">Acoustic</button><button class="chip" data-category="Electric Guitars">Electric</button><button class="chip" data-category="Keyboards">Keyboards</button><button class="chip" data-category="Drums">Drums</button><button class="chip" data-category="Accessories">Accessories</button></div><label class="search-box"><span>⌕</span><input id="searchInput" placeholder="Find your sound..." aria-label="Search products"></label></div>
+  <div id="status" class="status" role="status"></div><div class="product-grid" id="productGrid"><div class="loading">Tuning the strings…</div></div>
+</section>
+<section class="feature-band" id="why-us"><div class="feature-intro"><p class="eyebrow">THE SOUND CART PROMISE</p><h2>Good gear.<br><em>Good energy.</em></h2><p>Shopping for music should feel like the first note of your favourite song. No fuss, just the right gear.</p></div><div class="feature"><span class="feature-number">01 /</span><div class="feature-icon">♬</div><h3>Made for every level</h3><p>Beginner picking up their first guitar? Gigging every weekend? There's a place for you here.</p></div><div class="feature"><span class="feature-number">02 /</span><div class="feature-icon">₹</div><h3>Prices that make sense</h3><p>Solid picks for your budget, so you can spend less time comparing and more time playing.</p></div><div class="feature"><span class="feature-number">03 /</span><div class="feature-icon">♡</div><h3>Music comes first</h3><p>We believe the right instrument can change your day. Sometimes, it can change everything.</p></div></section>
+<section class="newsletter"><div><p class="eyebrow">STAY IN THE LOOP</p><h2>Good things are <em>in tune.</em></h2><p>New gear, fresh drops, and a little musical inspiration.</p></div><form id="newsletterForm"><input type="email" required placeholder="Your email address" aria-label="Email address"><button class="primary-btn" type="submit">Count me in ↗</button></form></section>
+</main>
+<footer id="footer"><a class="brand" href="#"><span class="brand-mark">S</span> soundcart<span class="dot">.</span></a><p>For the love of making noise.</p><span>© 2026 SoundCart. Built for music people.</span></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart"><div class="drawer-head"><div><p class="eyebrow">YOUR PICKS</p><h2>Your cart <span id="drawerCount">(0)</span></h2></div><button class="close-btn" id="closeCart" aria-label="Close cart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="cartTotal">₹0</strong></div><small>Shipping calculated at checkout. Secure your sound.</small><button class="primary-btn full" id="checkoutBtn">Go to checkout ↗</button></div></aside>
+<div class="modal-wrap" id="checkoutModal"><div class="modal"><button class="close-btn modal-close" data-close="checkoutModal">×</button><p class="eyebrow">ALMOST YOURS</p><h2>Checkout <em>time.</em></h2><p class="modal-sub">Fill in your delivery details to place your order.</p><form id="checkoutForm" class="checkout-form"><label>Full name<input name="name" required minlength="2" autocomplete="name"></label><div class="two-fields"><label>Email<input name="email" type="email" required autocomplete="email"></label><label>Phone<input name="phone" required minlength="8" autocomplete="tel"></label></div><label>Delivery address<textarea name="address" required minlength="8" rows="3" autocomplete="street-address"></textarea></label><div class="checkout-total"><span>Order total</span><b id="checkoutTotal">₹0</b></div><button class="primary-btn full" type="submit">Place order ↗</button><small class="form-note">Demo checkout only. No payment is collected.</small></form><div id="checkoutMessage" role="status"></div></div></div>
+<div class="modal-wrap" id="accountModal"><div class="modal"><button class="close-btn modal-close" data-close="accountModal">×</button><p class="eyebrow">WELCOME TO THE JAM</p><h2>Your <em>account.</em></h2><div class="auth-tabs"><button class="chip active" data-auth="login">Log in</button><button class="chip" data-auth="register">Create account</button></div><form id="authForm" class="checkout-form"><div id="nameField" hidden><label>Your name<input name="name" minlength="2"></label></div><label>Email<input name="email" type="email" required autocomplete="email"></label><label>Password<input name="password" type="password" required minlength="8" autocomplete="current-password"></label><button class="primary-btn full" id="authSubmit" type="submit">Log in ↗</button></form><div id="authMessage" role="status"></div></div></div>
+<script src="/app.js" defer></script>
+</body></html>
